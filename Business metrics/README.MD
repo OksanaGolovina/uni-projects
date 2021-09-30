@@ -1,4 +1,18 @@
-In this research we use on-line store logs with visits and orders, and information on marketing costs. 
-The main purpose of the research is to find ineffective and too expensive sources and make up recomendations to colleagues from marketing department.
-We calculate product and marketing metrics, including DAU/WAU/MAU, sticky factor, LTV, CAC, ROMI and others.
-In some cases cohort analysis is used.
+# Продуктовые и маркетинговые метрики
+
+## Описание
+Интернет-сервис по реализации билетов на мероприятия несет ежемесячные расходы на привлечение трафика. Необходимо найти неэффективные источники трафика  и дать рекомендации по перераспределению рекламного бюджета
+
+## Инструменты
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- plotly
+
+## Результаты
+- рассчитаны метрики DAU, WAU, MAU, sticky factor, средний чек
+- для расчета retention rate и LTV применен когортный анализ
+- определена стоимость привлечения клиентов для каждого рекламного источника (CAC)
+- рассчитан ROMI в разрезе источников привлечения
+- инвестиции в канал с одним из самых низких показателей CAC по итогам исследования признаны неэффективными, подготовлены рекомендации отделу маркетинга о целесообразности пересмотра рекламных расходов в пользу более перспективных каналов. 
