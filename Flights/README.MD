@@ -1,6 +1,21 @@
-This is a tiny research on internal passenger flights in Russia in 2018. 
-How many flights arrive daily in different cities? 
-What is the most popular destination?
-Is there a connection between distance and aircraft model?
-What city is more popular: sunny Sochi or industrial Tyumen?
-Go through the research with me and find answers!
+# Аналитика для авиакомпании
+
+## Описание
+
+Заказчик - крупная авиакомпания, предоставившая доступ к базе данных внутренних пассажирских авиаперевозок. Необходимо изучить предпочтения пользователей, чтобы понять связь между количеством рейсов и крупными фестивалями в российских городах
+
+## Инструменты
+- pandas
+- matplotlib
+- seaborn
+- plotly
+- scipy
+- SQL
+
+## Ключевые моменты
+- работа с базой данных осуществлялась через SQL-запросы (не вошли в данный ноутбук)
+- непосредственно в pandas анализировались данные о количестве совершенных рейсов в месяц в разрезе моделей самолетов (сентябрь 2018) и о среднем количестве рейсов в день по городам (август 2018)
+- выделены самые популярные направления перелетов
+- выявлена взаимосвязь между моделью самолета и дальностью полета
+- в данных найдены интересные артефакты 
+
