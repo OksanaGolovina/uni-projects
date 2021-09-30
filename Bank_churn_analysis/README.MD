@@ -1,3 +1,22 @@
-This is a deep research on bank customers aimed to draw up a portrait of a client who is going to churn. 
-We discover several vulnerable categories and suggest recommendations on how to fix the issue.
-Additionally we design a simple and highly interpretable model for churn probability prediction.
+# Анализ оттока в коммерческом банке
+
+## Описание
+Из банка каждый месяц уходят клиенты. Необходимо составить портрет клиента из «зоны риска» и предложить рекомендации для улучшения стратегии удержания. 
+
+## Инструменты: 
+- pandas
+- seaborn
+- scipy
+- phik 
+
+## Ключевые моменты и результаты
+- выполнена предобработка и EDA 
+- для проверки гипотез о нормальности распределений признаков использовался тест Шапиро-Уилка
+- применена поправка Шидака-Холма на множественное сравнение для уровня значимости
+- гипотезы о равенстве средних значений проверялись с помощью U-критерия Манна-Уитни, о равенстве долей - Z-тестом
+- все клиенты проранжированы по степени вероятности ухода из банка, сформулированы рекомендации по удержанию клиентов «уязвимых» категорий. 
+
+## Материалы для заказчика
+1. <code>[Презентация](https://drive.google.com/file/d/1EeV5XVz3x-KaeG4MUOjwx01ZN_n_vTq1/view?usp=sharing)</code>
+
+2. <code>[Дашборд](https://public.tableau.com/app/profile/oksana.golovina/viz/Bankchurn_16323532457090/Dashboard1?publish=yes)</code>
