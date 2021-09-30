@@ -1,4 +1,17 @@
-The basis for this research is open data on global sales of computer games since 1980 to 2016. 
-We explore the industry itself, popular platforms and genres, medium platform life expectancy, avarage critic scores and user ratings.
-We draw up a customer portrait for each global region (America, Euriope and Asia) with emphasis on favorite platforms, genres, and content.
-Two hypotheses are tested via t-test, Shapiro-Wilk and Levene tests are also used in the research.
+# Аналитика рынка компьютерных игр для интернет-магазина
+
+## Описание
+Интернет-магазин реализует компьютерные игры по всему миру. Необходимо проанализировать открытые данные по продажам игр за период с 1980 по 2016 год и выявить определяющие успешность игры закономерности. Это позволит сделать ставку на потенциально популярный продукт и спланировать рекламные кампании на следующий период. 
+
+## Инструменты
+- pandas
+- numpy
+- matplotlib
+- plotly
+- scipy
+
+## Результаты
+- определены платформы-лидеры по объемам продаж
+- выделены перспективные платформы на пике жизненного цикла
+- определены жанровые предпочтения пользователей в зависимости от региона
+- проверены гипотезы о равенстве пользовательских рейтингов для ПК и XboxOne, популярных жанров Action и Sports
