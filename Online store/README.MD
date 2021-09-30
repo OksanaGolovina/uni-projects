@@ -1,2 +1,18 @@
-The main purpose of the research is to find best hypothesys using ICE and RICE frameworks, and later analyse the A/B test results. The data is provided by an online store.
-We look into cumulative metrics: revenue, average cheque, conversion, explore abnormal values, test hypotheses using Mann-Whitney. The result shows statistical difference between test and control groups.
+# Приоритизация и проверка гипотез для онлайн-магазина
+
+## Описание
+Ввиду ограниченности ресурсов на тестирование множества продуктовых гипотез необходимо определить наиболее приоритетные, организовать тест и проанализировать его результаты
+
+## Инструменты
+- pandas
+- numpy
+- matplotlib
+- plotly
+- scipy
+
+## Ключевые особенности
+- проведен сравнительный анализ ранжирования гипотез по фреймворкам ICE и RICE
+- проанализированы кумулятивныя выручка, средний чек и конверсия
+- сравнения проводились как на сырых данных, так и на очищенных от выбросов
+- для проверки гипотез использовался непараметрический тест Манна-Уитни
+- были обнаружены статзначимые различия в конверсии между группами, зафиксирована победа тестовой группы
