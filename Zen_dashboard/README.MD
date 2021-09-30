@@ -1,3 +1,18 @@
-When your colleagues keep on asking for the same research every week, it's time to make a dashboard! This one is created for Yandex.Zen content managers to help them analyse users' preferences on a regular basis.
-A short presentation contains conclusions and description of the dashboard basic functionality.
-You can find a link to the dashboard in txt file.
+# Дашборд для контент-менеджеров Яндекс.Дзен
+
+## Описание
+Дата-инженеры Яндекс.Дзен разработали пайплайн для выгрузки данных о пользовательских событиях. Для менеджеров контента необходимо создать дашборд, отвечающий на вопросы:
+- сколько взаимодействий пользователей с карточками происходит в системе с разбивкой по темам карточек?
+- как много карточек генерируют источники с разными темами?
+- как соотносятся темы карточек и темы источников?
+
+## Инструменты
+- Tableau
+- PowerPoint
+- pandas
+- sqlalchemy
+- SQL
+
+## Результаты
+<code>[Дашборд](https://public.tableau.com/app/profile/oksana.golovina/viz/zen_dashboard_16288894207980/_?publish=yes)</code>
+Презентация находится в
