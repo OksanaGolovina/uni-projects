@@ -18,11 +18,12 @@
 9. Zen dashboard - аналитика для контент-менеджеров Яндекс.Дзен, дашборд и презентация
 
 ## Библиотеки
-- pandas
-- numpy
-- matplotlib
+- python version 3
+- pandas version 1.3.3
+- numpy version 1.21.0
+- matplotlib version 3.4.3
 - seaborn version 0.11.1
 - plotly version 4
-- scipy
-- sklearn
-- phik
+- scipy version 1.7.1
+- scikit-learn version 1.0
+- phik version 0.12.0
