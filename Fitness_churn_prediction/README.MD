@@ -1,3 +1,20 @@
-In this research we use machine learning tools to cluster clients and predict churn. We compare two binary classification models (logistic regression and random forest) to choose the one with better results. 
-In addition we find factors with the strongest effect on the target value.
-As a result we provide recommendations on inproving the retention strategy of the company.
+# Предсказание оттока клиентов фитнес-центра
+
+## Описание
+Сеть фитнес-клубов работает над улучшением стратегии удержания клиентов. Поставлена задача выявить факторы, влияющие на склонность клиента к оттоку, спрогнозировать кто из клиентов уйдет в следующем месяце, и дать рекомендации по удержанию
+
+## Инструменты
+- pandas
+- numpy
+- seaborn
+- scipy
+- sklearn
+
+## Ключевые моменты
+- решались задачи кластеризации и бинарной классификации
+- кластеризация клиентов сделана с помощью KMeans
+- для определения оптимального числа кластеров использовалась дендрограммой из scipy.cluster.hierarchy
+- проведена работа с дисбалансом классов, данные стандартизированы через StandardScaler
+- для прогнозирования оттока применялись алгоритмы LogisticRegression и RandomForest, параметры подобраны по сетке
+- по метрике recall лучше себя показала логистическая регрессия - ее использовали для итогового прогноза
+- для заказчика подготовлены рекомендации по улучшению стратегии удержания клиентов
