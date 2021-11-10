@@ -16,3 +16,6 @@
 ## Результаты
 <code>[Дашборд](https://public.tableau.com/app/profile/oksana.golovina/viz/zen_dashboard_16288894207980/_?publish=yes)</code>  
 Презентация находится в папке Zen_dashboard
+
+Для просмотра ноутбука можно воспользоваться утилитой https://nbviewer.jupyter.org/.  
+Переходи по ссылке, вставляй адрес ноутбука в соответствующую строку и жми Go!
