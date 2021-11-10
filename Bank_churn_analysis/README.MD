@@ -20,3 +20,5 @@
 1. <code>[Презентация](https://drive.google.com/file/d/1EeV5XVz3x-KaeG4MUOjwx01ZN_n_vTq1/view?usp=sharing)</code>
 
 2. <code>[Дашборд](https://public.tableau.com/app/profile/oksana.golovina/viz/Bankchurn_16323532457090/Dashboard1?publish=yes)</code>
+
+Для просмотра ноутбука можно воспользоваться утилитой https://nbviewer.jupyter.org/. Переходи по ссылке, вставляй адрес ноутбука в соответствующую строку и жми Go!
